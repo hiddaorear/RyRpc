@@ -11,7 +11,7 @@ aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/common DIR_SRC)
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} DIR_SRC)
 
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty)
-link_directories(/usr/local/Cellar/glog/0.3.5_1/lib)
+link_directories(/usr/local/Cellar/glog/0.6.0/lib)
 
 include_directories(${BOOST_PATH}/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/common)
