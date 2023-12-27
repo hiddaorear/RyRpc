@@ -4,7 +4,7 @@ project(rynrpc)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O -DHAVE_KQUEUE -std=c++11")
 #add_definitions("-DHAVE_KQUEUE -O2 -std=c++11")
 
-SET("/usr/local/Cellar/boost/1.64.0_1" BOOST_PATH)
+SET("/usr/local/Cellar/boost/1.83.0" BOOST_PATH)
 
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/net DIR_SRC)
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/common DIR_SRC)
